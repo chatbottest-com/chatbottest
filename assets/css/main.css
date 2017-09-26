@@ -1712,6 +1712,10 @@ ul.actions li {
     margin-left: 1em;
 }
 
+ul.actions li a i.fa {
+    margin-right: 5px;
+}
+
 ul.actions li:first-child {
     margin-left: 0;
 }
@@ -2161,6 +2165,10 @@ button:hover,
     color: #fff;
 }
 
+#hero header img {
+    width: 50%;
+}
+
 #hero p {
     font-size: 1.5em;
     line-height: 1.5em;
@@ -2207,6 +2215,13 @@ button:hover,
     display: inline-block;
     margin-right: 1em;
     font-size: 1.75em;
+}
+
+#promo h3 {
+    color: #fff;
+    display: inline-block;
+    margin-right: 1em;
+    font-size: 1.25em;
 }
 
 #promo .button {
