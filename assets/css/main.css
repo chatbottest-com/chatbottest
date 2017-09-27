@@ -1525,8 +1525,11 @@ h6 a {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 3em;
     line-height: 1.25em;
+}
+#learn-more h2{
+    font-size: 1.75em;
 }
 
 h3 {
@@ -2166,12 +2169,17 @@ button:hover,
 }
 
 #hero header img {
-    width: 50%;
+    width: 60%;
+    max-width: 400px;
+    padding-bottom: 30px;
 }
 
 #hero p {
     font-size: 1.5em;
     line-height: 1.5em;
+    max-width: 880px;
+    display: block;
+    margin: 0 auto;
 }
 
 #hero .button {
@@ -2208,13 +2216,14 @@ button:hover,
     display: inline-block;
     position: relative;
     z-index: 1;
+    max-width: 880px;
 }
 
 #promo h2 {
     color: #fff;
     display: inline-block;
     margin-right: 1em;
-    font-size: 1.75em;
+    font-size: 3em;
 }
 
 #promo h3 {
@@ -2222,6 +2231,12 @@ button:hover,
     display: inline-block;
     margin-right: 1em;
     font-size: 1.25em;
+    text-align: left;
+}
+
+#promo p {
+    text-align: left;
+    font-size: 1.2em;
 }
 
 #promo .button {
@@ -2539,7 +2554,7 @@ button:hover,
         letter-spacing: 0;
     }
     h2 {
-        font-size: 1.5em;
+        font-size: 1.75em;
         line-height: 1.25em;
     }
     /* Sections/Article */
