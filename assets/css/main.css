@@ -2224,6 +2224,7 @@ button:hover,
     display: inline-block;
     margin-right: 1em;
     font-size: 3em;
+    padding-bottom: 50px;
 }
 
 #promo h3 {
