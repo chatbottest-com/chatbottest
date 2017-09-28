@@ -1548,7 +1548,7 @@ a {
 }
 
 a:hover {
-    color: #f35858;
+    color: #2a5d60;
     border-bottom-color: rgba(255, 255, 255, 0);
 }
 
@@ -1689,7 +1689,6 @@ header.major {
 a.image:hover {
     opacity: 0.85;
 }
-
 
 /* List */
 
@@ -1961,12 +1960,12 @@ button:hover,
 #header-wrapper {
     position: relative;
     padding: 4em 0 2em 0;
-    background-image: url("images/header.svg");
-    background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-    background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-    background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-    background-image: url("images/overlay.png"), url("images/header.svg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-    background-color: #f08c89;
+    background-image: url("images/background-chatbottest-2.jpg");
+    background-image: url("images/overlay.png"), url("images/background-chatbottest-2.jpg");
+    background-image: url("images/overlay.png"), url("images/background-chatbottest-2.jpg");
+    background-image: url("images/overlay.png"), url("images/background-chatbottest-2.jpg");
+    background-image: url("images/overlay.png"), url("images/background-chatbottest-2.jpg");
+    background-color: #2a5d60;
     background-size: 100% 620%;
     background-size: 128px 128px, 100% 620%, auto;
     background-repeat: repeat, no-repeat, no-repeat;
@@ -2185,7 +2184,7 @@ button:hover,
 #hero .button {
     background: #fff;
     border-color: rgba(255, 255, 255, 0);
-    color: #f08c89;
+    color: #2a5d60;
     font-size: 1.25em;
 }
 
@@ -2259,12 +2258,18 @@ button:hover,
 #team-wrapper {
     background-image: url(images/overlay.png), url(../../images/promo.jpg);
     color: #eee;
+    padding: 3em 0 3em 0;
 }
 
 #team-wrapper h2,
 #team-wrapper strong {
     color: #eee;
 }
+
+#team-wrapper i.fa{
+    margin: 0 5px;
+}
+
 
 #team {
     /*background: rgba(255, 255, 255, 0.05);
