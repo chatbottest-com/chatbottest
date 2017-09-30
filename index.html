@@ -33,8 +33,19 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <meta name="Description" content="Open source project with more than 120 questions for you to understand what is your chatbot doing wrong">
-    <title>Chatbottest - The free guide for you to understand what is your chatbot doing wrong
-    </title>
+    <title>Chatbottest - The free guide for you to understand what is your chatbot doing wrong</title>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107270139-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments)
+        };
+        gtag('js', new Date());
+
+        gtag('config', 'UA-107270139-1');
+    </script>
 </head>
 
 <body class="homepage">
@@ -67,26 +78,26 @@
                 <div class="row">
                     <section class="6u 12u(narrower) feature">
                         <div class="image-wrapper first">
-                            <a href="#" class="image featured first"><img src="images/alma.gif" alt="Alma chrome extension" /></a>
+                            <a href="#" class="image featured first" onClick="ga('send', 'event', 'obtener', 'click', 'alma');"><img src="images/alma.gif" alt="Alma chrome extension" /></a>
                         </div>
                         <header>
                             <h2>Meet <strong>Alma</strong></h2>
                         </header>
                         <p>Alma guides you through a short test to get insights about any chatbot. It's a free Chrome extension and it's available to use in Telegram and Facebook Messenger.</p>
                         <ul class="actions">
-                            <li><a href="#" class="button"><i class="fa fa-chrome" aria-hidden="true"></i> Install Chrome Extension</a></li>
+                            <li><a href="#" class="button" onClick="ga('send', 'event', 'obtener', 'click', 'almaButton');"><i class="fa fa-chrome" aria-hidden="true"></i> Install Chrome Extension</a></li>
                         </ul>
                     </section>
                     <section class="6u 12u(narrower) feature">
                         <div class="image-wrapper">
-                            <a href="https://github.com/chatbottest-com/guide/wiki" target="_blank" class="image featured"><img src="images/guide.gif" alt="" /></a>
+                            <a href="https://github.com/chatbottest-com/guide/wiki" target="_blank" class="image featured" onClick="ga('send', 'event', 'obtener', 'click', 'github');"><img src="images/guide.gif" alt="" /></a>
                         </div>
                         <header>
                             <h2>Get the <strong>open source guide</strong></h2>
                         </header>
                         <p>Alma only asks 33 questions from a list of 120, a broader model based on our experience. Check the complete open source guide at Github and feel free to collaborate in it.</p>
                         <ul class="actions">
-                            <li><a href="https://github.com/chatbottest-com/guide/wiki" target="_blank" class="button"><i class="fa fa-github" aria-hidden="true"></i> Collaborate in Github</a></li>
+                            <li><a href="https://github.com/chatbottest-com/guide/wiki" target="_blank" class="button" onClick="ga('send', 'event', 'obtener', 'click', 'githubButton');"><i class="fa fa-github" aria-hidden="true"></i> Collaborate in Github</a></li>
                         </ul>
                     </section>
                 </div>
@@ -194,25 +205,26 @@
                             <a href="#" class="image featured"><img src="images/jesus-martin.jpg" alt="Jesús Martín photo" /></a>
                         </div>
                         <p><strong>Jesús Martín</strong>
-                            <br><a href="http://twitter.com/@chus9000" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="https://www.linkedin.com/in/jesusmartinjimenez/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></p>
+                            <br><a href="http://twitter.com/@chus9000" target="_blank" onClick="ga('send', 'event', 'contact', 'click', 'twitterJesus');"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/jesusmartinjimenez/" target="_blank" onClick="ga('send', 'event', 'contact', 'click', 'linkedinJesus');"><i class="fa fa-linkedin" aria-hidden="true"></i></a></p>
                     </section>
                     <section class="4u 12u(narrower) feature">
                         <div class="image-wrapper">
                             <a href="#" class="image featured"><img src="images/carlos-munro.jpg" alt="" /></a>
                         </div>
                         <p><strong>Carlos Muñoz-Romero</strong>
-                            <br><a href="http://twitter.com/@carlos_munoz" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="https://www.linkedin.com/in/carlosmunozromero/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></p>
+
+                            <br><a href="http://twitter.com/@carlos_munoz" target="_blank" onClick="ga('send', 'event', 'contact', 'click', 'twitterCarlos');"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/carlosmunozromero/" target="_blank" onClick="ga('send', 'event', 'contact', 'click', 'linkedinCarlos');"><i class="fa fa-linkedin" aria-hidden="true"></i></a></p>
+
                     </section>
                     <section class="4u 12u(narrower) feature">
                         <div class="image-wrapper">
                             <a href="#" class="image featured"><img src="images/nieves-abalos.jpg" alt="Nieves Ábalos photo" /></a>
                         </div>
                         <p><strong>Nieves Ábalos</strong>
-                            <br><a href="http://twitter.com/@nieves_as" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="https://www.linkedin.com/in/nievesabalosserrano/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></p>
-
+                            <br><a href="http://twitter.com/@nieves_as" target="_blank" onClick="ga('send', 'event', 'contact', 'click', 'twitterNieves');"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/nievesabalosserrano/" target="_blank" onClick="ga('send', 'event', 'contact', 'click', 'linkedinNieves');"><i class="fa fa-linkedin" aria-hidden="true"></i></a></p>
                         </p>
                     </section>
                 </div>
@@ -224,7 +236,7 @@
             <div id="footer" class="container">
                 <header class="major">
                     <h2>Contact us!</h2>
-                    <h3><a href="mailto:hello@chatbottest.com?subject=Chabottest feedback">hello@chatbottest.com</a></h3>
+                    <h3><a href="mailto:hello@chatbottest.com?subject=Chabottest feedback" onClick="ga('send', 'event', 'contact', 'click', 'emailBottom');">hello@chatbottest.com</a></h3>
                     <!--p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur vel sem sit<br /> dolor neque semper magna lorem ipsum feugiat veroeros lorem ipsum dolore.</p-->
                 </header>
                 <div class="row">
