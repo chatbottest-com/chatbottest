@@ -24,7 +24,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="./ico/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="./ico/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="./ico/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="./ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./ico/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./ico/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="./ico/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./ico/favicon-16x16.png">
@@ -37,13 +37,15 @@
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107270139-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments)};
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'UA-107270139-1');
+        function gtag() {
+            dataLayer.push(arguments)
+        };
+        gtag('js', new Date());
+
+        gtag('config', 'UA-107270139-1');
     </script>
-
 </head>
 
 <body class="homepage">
@@ -53,7 +55,7 @@
         <div id="header-wrapper">
             <div id="header" class="container">
 
-                
+
             </div>
 
             <!-- Hero -->
@@ -76,14 +78,17 @@
                 <div class="row">
                     <section class="6u 12u(narrower) feature">
                         <div class="image-wrapper first">
+
+                            <a href="https://chrome.google.com/webstore/detail/alma-from-chatbottest/dgaboafmafkidbjgcichcbaikbefbakh" class="image featured first" 
                             <a href="#" class="image featured first" onClick="gtag(‘event’, ‘click’,{‘boton’:‘Alma’,‘objective’:‘obtener’});"><img src="images/alma.gif" alt="Alma chrome extension" /></a>
+
                         </div>
                         <header>
                             <h2>Meet <strong>Alma</strong></h2>
                         </header>
                         <p>Alma guides you through a short test to get insights about any chatbot. It's a free Chrome extension and it's available to use in Telegram and Facebook Messenger.</p>
                         <ul class="actions">
-                            <li><a href="#" class="button" onClick="ga('send', 'event', 'obtener', 'click', 'almaButton');"><i class="fa fa-chrome" aria-hidden="true"></i> Install Chrome Extension</a></li>
+                            <li><a href="https://chrome.google.com/webstore/detail/alma-from-chatbottest/dgaboafmafkidbjgcichcbaikbefbakh" class="button" onClick="ga('send', 'event', 'obtener', 'click', 'almaButton');"><i class="fa fa-chrome" aria-hidden="true"></i> Install Chrome Extension</a></li>
                         </ul>
                     </section>
                     <section class="6u 12u(narrower) feature">
@@ -93,7 +98,7 @@
                         <header>
                             <h2>Get the <strong>open source guide</strong></h2>
                         </header>
-                        <p>Alma only asks 33 questions from a list of 120, a broader model based on our experience. Check the complete open source guide at Github and feel free to collaborate in it.</p>
+                        <p>Alma only asks 33 questions from a list of 120, a broader model based on our experience. Check the completely open source guide at Github and feel free to collaborate in it.</p>
                         <ul class="actions">
                             <li><a href="https://github.com/chatbottest-com/guide/wiki" target="_blank" class="button" onClick="ga('send', 'event', 'obtener', 'click', 'githubButton');"><i class="fa fa-github" aria-hidden="true"></i> Collaborate in Github</a></li>
                         </ul>
@@ -105,9 +110,10 @@
         <!-- Promo -->
         <div id="promo-wrapper">
             <section id="promo">
-                <h2>How it works</h2>                
-                <p>Based on an heuristic evaluation and our experience, we have created a complete open source guide of instructions and questions. Follow it in order to evaluate any chatbot design. All these questions will help you find problems in the human-chatbot interaction divided into 7 categories.</p>
-                <h3>This guide will help you focus on what you should improve in your chatbot's design.</h3>
+                <h2>How it works</h2>
+                <p>Based on a heuristic evaluation and our experience, we have created a complete open source guide of instructions and questions. Follow it to test any chatbot design. All these questions will help you find problems in the human-chatbot
+                    interaction divided into 7 categories.</p>
+                <h3>This guide will help you focus on what you should improve your chatbot's design.</h3>
                 <!--a href="#" class="button">Learn more</a-->
             </section>
         </div>
@@ -116,7 +122,7 @@
         <div class="wrapper">
             <section class="container">
                 <header class="major">
-                    <h2>The 7 categories on chatbot's design</h2>
+                    <h2>The 7 categories of chatbot's design</h2>
                 </header>
 
                 <div class="row features">
@@ -134,7 +140,7 @@
                             <!--a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a-->
                         </div>
                         <p><strong>Onboarding</strong>
-                            <br>Are users understanding was the chatbot about and how to interact with him from the very beginning?</p>
+                            <br>Are users understanding what is the chatbot about? and how to interact with him from the very beginning?</p>
                     </section>
                     <section class="4u 12u(narrower) feature">
                         <div class="">
@@ -142,7 +148,7 @@
                             <!--a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a-->
                         </div>
                         <p><strong>Understanding</strong>
-                            <br>Requests, smalltalk, idioms, emojis... What the hell is the chatbot capable to understand?
+                            <br>Requests, smalltalk, idioms, emojis... What is the chatbot able to understand?
                             <p></p>
                         </p>
                     </section>
@@ -154,7 +160,7 @@
                             <!--a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a-->
                         </div>
                         <p><strong>Answering</strong>
-                            <br>What elements does the chatbot send and how well it is doing it? Are they relevant to the moment they are used?
+                            <br>What elements does the chatbot send and how well it is doing it? Are they relevant to the moment and context?
                         </p>
                     </section>
                     <section class="4u 12u(narrower) feature">
@@ -163,14 +169,14 @@
                             <!--a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a-->
                         </div>
                         <p><strong>Navigation</strong>
-                            <br>How easy is to go through the chatbot conversation? Do you fell lost sometimes while spaking with the chatbot?</p>
+                            <br>How easy is to go through the chatbot conversation? Do you feel lost sometimes while speaking with the chatbot?</p>
                     </section>
                     <section class="4u 12u(narrower) feature">
                         <div class="first">
                             <img src="images/if_error_np.png" height="128" alt="error" />
                             <!--a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a-->
                         </div>
-                        <p><strong>Error manage</strong>
+                        <p><strong>Error management</strong>
                             <br>How good is the chatbot dealing with all the errors that are going to happen? Is able to recover from them? </p>
                     </section>
                     <section class="4u 12u(narrower) feature"></section>
@@ -202,25 +208,26 @@
                             <a href="#" class="image featured"><img src="images/jesus-martin.jpg" alt="Jesús Martín photo" /></a>
                         </div>
                         <p><strong>Jesús Martín</strong>
-                            <br><a href="http://twitter.com/@chus9000" onClick="ga('send', 'event', 'contact', 'click', 'twitterJesus');"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="https://www.linkedin.com/in/jesusmartinjimenez/" onClick="ga('send', 'event', 'contact', 'click', 'linkedinJesus');"><i class="fa fa-linkedin" aria-hidden="true"></i></a></p>
+                            <br><a href="http://twitter.com/@chus9000" target="_blank" onClick="ga('send', 'event', 'contact', 'click', 'twitterJesus');"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/jesusmartinjimenez/" target="_blank" onClick="ga('send', 'event', 'contact', 'click', 'linkedinJesus');"><i class="fa fa-linkedin" aria-hidden="true"></i></a></p>
                     </section>
                     <section class="4u 12u(narrower) feature">
                         <div class="image-wrapper">
-                            <a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+                            <a href="#" class="image featured"><img src="images/carlos-munro.jpg" alt="" /></a>
                         </div>
                         <p><strong>Carlos Muñoz-Romero</strong>
-                            <br><a href="http://twitter.com/@carlos_munoz" onClick="ga('send', 'event', 'contact', 'click', 'twitterJesus');"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="https://www.linkedin.com/in/carlosmunozromero/" onClick="ga('send', 'event', 'contact', 'click', 'linkedinJesus');"><i class="fa fa-linkedin" aria-hidden="true"></i></a></p>
+
+                            <br><a href="http://twitter.com/@carlos_munoz" target="_blank" onClick="ga('send', 'event', 'contact', 'click', 'twitterCarlos');"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/carlosmunozromero/" target="_blank" onClick="ga('send', 'event', 'contact', 'click', 'linkedinCarlos');"><i class="fa fa-linkedin" aria-hidden="true"></i></a></p>
+
                     </section>
                     <section class="4u 12u(narrower) feature">
                         <div class="image-wrapper">
                             <a href="#" class="image featured"><img src="images/nieves-abalos.jpg" alt="Nieves Ábalos photo" /></a>
                         </div>
                         <p><strong>Nieves Ábalos</strong>
-                        <br><a href="http://twitter.com/@nieves_as" onClick="ga('send', 'event', 'contact', 'click', 'twitterJesus');"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="https://www.linkedin.com/in/nievesabalosserrano/" onClick="ga('send', 'event', 'contact', 'click', 'linkedinJesus');"><i class="fa fa-linkedin" aria-hidden="true"></i></a></p>
-                        
+                            <br><a href="http://twitter.com/@nieves_as" target="_blank" onClick="ga('send', 'event', 'contact', 'click', 'twitterNieves');"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/nievesabalosserrano/" target="_blank" onClick="ga('send', 'event', 'contact', 'click', 'linkedinNieves');"><i class="fa fa-linkedin" aria-hidden="true"></i></a></p>
                         </p>
                     </section>
                 </div>
@@ -237,7 +244,7 @@
                 </header>
                 <div class="row">
                     <section class="6u 12u(narrower)">
-                        
+
                         <!--form method="post" action="#">
                             <div class="row 50%">
                                 <div class="6u 12u(mobile)">
@@ -281,7 +288,7 @@
             <div id="copyright" class="container">
                 <ul class="menu">
                     <li>&copy; <a href="http://chatbottest.com">chatbottest.com</a>. All rights reserved.</li>
-                    <li>Web template by <a href="http://twitter.com/ajlkn">AJ</a></li>
+                    <li>Web template by <a href="http://twitter.com/ajlkn" target="_blank">AJ</a></li>
                 </ul>
             </div>
         </div>
