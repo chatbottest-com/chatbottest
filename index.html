@@ -37,14 +37,14 @@
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107270139-1"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-        function gtag() {
-            dataLayer.push(arguments)
-        };
-        gtag('js', new Date());
+          ga('create', 'UA-107270139-1', 'auto');
+          ga('send', 'pageview');
 
-        gtag('config', 'UA-107270139-1');
     </script>
 </head>
 
@@ -79,7 +79,7 @@
                     <section class="6u 12u(narrower) feature">
                         <div class="image-wrapper first">
 
-                            <a href="https://chrome.google.com/webstore/detail/alma-from-chatbottest/dgaboafmafkidbjgcichcbaikbefbakh" class="image featured first" onClick="gtag('event', 'click',{'content_type':'almaImg'});" target="_blank" id="almaImg"><img src="images/alma.gif" alt="Alma chrome extension" /></a>  
+                            <a href="https://chrome.google.com/webstore/detail/alma-from-chatbottest/dgaboafmafkidbjgcichcbaikbefbakh" class="image featured first" "ga('send', 'event', 'obtener', 'click', 'almaImg');" target="_blank" id="almaImg"><img src="images/alma.gif" alt="Alma chrome extension" /></a>  
                         </div>
                         <header>
                             <h2>Meet <strong>Alma</strong></h2>
@@ -91,7 +91,7 @@
                     </section>
                     <section class="6u 12u(narrower) feature">
                         <div class="image-wrapper">
-                            <a href="https://github.com/chatbottest-com/guide/wiki" target="_blank" class="image featured" onClick="ga('send', 'event', 'obtener', 'click', 'github');"><img src="images/guide.gif" alt="" /></a>
+                            <a href="https://github.com/chatbottest-com/guide/wiki" target="_blank" class="image featured" onClick="ga('send', 'event', 'obtener', 'click', 'githubImg');"><img src="images/guide.gif" alt="" /></a>
                         </div>
                         <header>
                             <h2>Get the <strong>open source guide</strong></h2>
